@@ -1,0 +1,163 @@
+.new_slider {
+  /*---- NUMBER OF SLIDE CONFIGURATION ----*/
+  /*---- SET UP CONTROL ----*/
+  /* Info Box */
+  /* Slider Styling */
+  /*---- SET POSITION FOR SLIDE ----*/
+  /*---- TABLET ----*/
+  /*---- MOBILE----*/ }
+  .new_slider .wrapper {
+    max-width: 60em;
+    margin: 1em auto;
+    position: relative; }
+  .new_slider input {
+    display: none; }
+  .new_slider .inner {
+    width: 1500%;
+    line-height: 0; }
+  .new_slider article {
+    width: 6.6666666667%;
+    float: left;
+    position: relative; }
+  .new_slider article img {
+    width: 100%; }
+  .new_slider .slider-prev-next-control {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .new_slider .slider-prev-next-control label {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.7; }
+  .new_slider .slider-prev-next-control label:hover {
+    opacity: 1; }
+  .new_slider .info {
+    position: absolute;
+    font-style: italic;
+    line-height: 20px;
+    opacity: 0;
+    color: #000;
+    text-align: left;
+    -webkit-transition: all 1000ms ease-out 600ms;
+    -moz-transition: all 1000ms ease-out 600ms;
+    transition: all 1000ms ease-out 600ms; }
+  .new_slider .info h3 {
+    color: #fcfff4;
+    margin: 0 0 5px;
+    font-weight: normal;
+    font-size: 1.5em;
+    font-style: normal; }
+  .new_slider .info.top-left {
+    top: 30px;
+    left: 30px; }
+  .new_slider .info.top-right {
+    top: 30px;
+    right: 30px; }
+  .new_slider .info.bottom-left {
+    bottom: 30px;
+    left: 30px; }
+  .new_slider .info.bottom-right {
+    bottom: 30px;
+    right: 30px; }
+  .new_slider .slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #666;
+    background: #fff;
+    background: #fcfff4;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    transition: all 500ms ease-out; }
+  .new_slider .slider-wrapper .inner {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1); }
+  .new_slider #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after, .new_slider #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, .new_slider #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, .new_slider #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, .new_slider #slide5:checked ~ .slider-prev-next-control label:nth-child(6)::after, .new_slider #slide6:checked ~ .slider-prev-next-control label:nth-child(7)::after, .new_slider #slide7:checked ~ .slider-prev-next-control label:nth-child(8)::after, .new_slider #slide8:checked ~ .slider-prev-next-control label:nth-child(9)::after, .new_slider #slide9:checked ~ .slider-prev-next-control label:nth-child(10)::after, .new_slider #slide10:checked ~ .slider-prev-next-control label:nth-child(11)::after, .new_slider #slide11:checked ~ .slider-prev-next-control label:nth-child(12)::after, .new_slider #slide12:checked ~ .slider-prev-next-control label:nth-child(13)::after, .new_slider #slide13:checked ~ .slider-prev-next-control label:nth-child(14)::after, .new_slider #slide14:checked ~ .slider-prev-next-control label:nth-child(15)::after, .new_slider #slide15:checked ~ .slider-prev-next-control label:nth-child(1)::after, .new_slider #slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after, .new_slider #slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after, .new_slider #slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after, .new_slider #slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after, .new_slider #slide6:checked ~ .slider-prev-next-control label:nth-child(5)::after, .new_slider #slide7:checked ~ .slider-prev-next-control label:nth-child(6)::after, .new_slider #slide8:checked ~ .slider-prev-next-control label:nth-child(7)::after, .new_slider #slide9:checked ~ .slider-prev-next-control label:nth-child(8)::after, .new_slider #slide10:checked ~ .slider-prev-next-control label:nth-child(9)::after, .new_slider #slide11:checked ~ .slider-prev-next-control label:nth-child(10)::after, .new_slider #slide12:checked ~ .slider-prev-next-control label:nth-child(11)::after, .new_slider #slide13:checked ~ .slider-prev-next-control label:nth-child(12)::after, .new_slider #slide14:checked ~ .slider-prev-next-control label:nth-child(13)::after, .new_slider #slide15:checked ~ .slider-prev-next-control label:nth-child(14)::after, .new_slider #slide1:checked ~ .slider-prev-next-control label:nth-child(15)::after {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin: 0;
+    line-height: 38px;
+    font-size: 3em;
+    display: block;
+    color: #777; }
+  .new_slider #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after, .new_slider #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, .new_slider #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, .new_slider #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, .new_slider #slide5:checked ~ .slider-prev-next-control label:nth-child(6)::after, .new_slider #slide6:checked ~ .slider-prev-next-control label:nth-child(7)::after, .new_slider #slide7:checked ~ .slider-prev-next-control label:nth-child(8)::after, .new_slider #slide8:checked ~ .slider-prev-next-control label:nth-child(9)::after, .new_slider #slide9:checked ~ .slider-prev-next-control label:nth-child(10)::after, .new_slider #slide10:checked ~ .slider-prev-next-control label:nth-child(11)::after, .new_slider #slide11:checked ~ .slider-prev-next-control label:nth-child(12)::after, .new_slider #slide12:checked ~ .slider-prev-next-control label:nth-child(13)::after, .new_slider #slide13:checked ~ .slider-prev-next-control label:nth-child(14)::after, .new_slider #slide14:checked ~ .slider-prev-next-control label:nth-child(15)::after, .new_slider #slide15:checked ~ .slider-prev-next-control label:nth-child(1)::after {
+    content: "\f105";
+    padding-left: 15px; }
+  .new_slider #slide1:checked ~ .slider-prev-next-control label:nth-child(2), .new_slider #slide2:checked ~ .slider-prev-next-control label:nth-child(3), .new_slider #slide3:checked ~ .slider-prev-next-control label:nth-child(4), .new_slider #slide4:checked ~ .slider-prev-next-control label:nth-child(5), .new_slider #slide5:checked ~ .slider-prev-next-control label:nth-child(6), .new_slider #slide6:checked ~ .slider-prev-next-control label:nth-child(7), .new_slider #slide7:checked ~ .slider-prev-next-control label:nth-child(8), .new_slider #slide8:checked ~ .slider-prev-next-control label:nth-child(9), .new_slider #slide9:checked ~ .slider-prev-next-control label:nth-child(10), .new_slider #slide10:checked ~ .slider-prev-next-control label:nth-child(11), .new_slider #slide11:checked ~ .slider-prev-next-control label:nth-child(12), .new_slider #slide12:checked ~ .slider-prev-next-control label:nth-child(13), .new_slider #slide13:checked ~ .slider-prev-next-control label:nth-child(14), .new_slider #slide14:checked ~ .slider-prev-next-control label:nth-child(15), .new_slider #slide15:checked ~ .slider-prev-next-control label:nth-child(1) {
+    display: block;
+    float: right;
+    margin-right: 5px; }
+  .new_slider #slide2:checked ~ .slider-prev-next-control label:nth-child(1), .new_slider #slide3:checked ~ .slider-prev-next-control label:nth-child(2), .new_slider #slide4:checked ~ .slider-prev-next-control label:nth-child(3), .new_slider #slide5:checked ~ .slider-prev-next-control label:nth-child(4), .new_slider #slide6:checked ~ .slider-prev-next-control label:nth-child(5), .new_slider #slide7:checked ~ .slider-prev-next-control label:nth-child(6), .new_slider #slide8:checked ~ .slider-prev-next-control label:nth-child(7), .new_slider #slide9:checked ~ .slider-prev-next-control label:nth-child(8), .new_slider #slide10:checked ~ .slider-prev-next-control label:nth-child(9), .new_slider #slide11:checked ~ .slider-prev-next-control label:nth-child(10), .new_slider #slide12:checked ~ .slider-prev-next-control label:nth-child(11), .new_slider #slide13:checked ~ .slider-prev-next-control label:nth-child(12), .new_slider #slide14:checked ~ .slider-prev-next-control label:nth-child(13), .new_slider #slide15:checked ~ .slider-prev-next-control label:nth-child(14), .new_slider #slide1:checked ~ .slider-prev-next-control label:nth-child(15) {
+    display: block;
+    float: left;
+    margin-left: 5px; }
+  .new_slider #slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after, .new_slider #slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after, .new_slider #slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after, .new_slider #slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after, .new_slider #slide6:checked ~ .slider-prev-next-control label:nth-child(5)::after, .new_slider #slide7:checked ~ .slider-prev-next-control label:nth-child(6)::after, .new_slider #slide8:checked ~ .slider-prev-next-control label:nth-child(7)::after, .new_slider #slide9:checked ~ .slider-prev-next-control label:nth-child(8)::after, .new_slider #slide10:checked ~ .slider-prev-next-control label:nth-child(9)::after, .new_slider #slide11:checked ~ .slider-prev-next-control label:nth-child(10)::after, .new_slider #slide12:checked ~ .slider-prev-next-control label:nth-child(11)::after, .new_slider #slide13:checked ~ .slider-prev-next-control label:nth-child(12)::after, .new_slider #slide14:checked ~ .slider-prev-next-control label:nth-child(13)::after, .new_slider #slide15:checked ~ .slider-prev-next-control label:nth-child(14)::after, .new_slider #slide1:checked ~ .slider-prev-next-control label:nth-child(15)::after {
+    content: "\f104";
+    padding-left: 8px; }
+  .new_slider #slide1:checked ~ .slider-dot-control label:nth-child(1), .new_slider #slide2:checked ~ .slider-dot-control label:nth-child(2), .new_slider #slide3:checked ~ .slider-dot-control label:nth-child(3), .new_slider #slide4:checked ~ .slider-dot-control label:nth-child(4), .new_slider #slide5:checked ~ .slider-dot-control label:nth-child(5), .new_slider #slide6:checked ~ .slider-dot-control label:nth-child(6), .new_slider #slide7:checked ~ .slider-dot-control label:nth-child(7), .new_slider #slide8:checked ~ .slider-dot-control label:nth-child(8), .new_slider #slide9:checked ~ .slider-dot-control label:nth-child(9), .new_slider #slide10:checked ~ .slider-dot-control label:nth-child(10), .new_slider #slide11:checked ~ .slider-dot-control label:nth-child(11), .new_slider #slide12:checked ~ .slider-dot-control label:nth-child(12), .new_slider #slide13:checked ~ .slider-dot-control label:nth-child(13), .new_slider #slide14:checked ~ .slider-dot-control label:nth-child(14), .new_slider #slide15:checked ~ .slider-dot-control label:nth-child(15) {
+    background: #333; }
+  .new_slider #slide1:checked ~ .slider-wrapper article:nth-child(1) .info, .new_slider #slide2:checked ~ .slider-wrapper article:nth-child(2) .info, .new_slider #slide3:checked ~ .slider-wrapper article:nth-child(3) .info, .new_slider #slide4:checked ~ .slider-wrapper article:nth-child(4) .info, .new_slider #slide5:checked ~ .slider-wrapper article:nth-child(5) .info, .new_slider #slide6:checked ~ .slider-wrapper article:nth-child(6) .info, .new_slider #slide7:checked ~ .slider-wrapper article:nth-child(7) .info, .new_slider #slide8:checked ~ .slider-wrapper article:nth-child(8) .info, .new_slider #slide9:checked ~ .slider-wrapper article:nth-child(9) .info, .new_slider #slide10:checked ~ .slider-wrapper article:nth-child(10) .info, .new_slider #slide11:checked ~ .slider-wrapper article:nth-child(11) .info, .new_slider #slide12:checked ~ .slider-wrapper article:nth-child(12) .info, .new_slider #slide13:checked ~ .slider-wrapper article:nth-child(13) .info, .new_slider #slide14:checked ~ .slider-wrapper article:nth-child(14) .info, .new_slider #slide15:checked ~ .slider-wrapper article:nth-child(15) .info {
+    opacity: 1; }
+  .new_slider #slide1:checked ~ .slider-wrapper .inner {
+    margin-left: 0%; }
+  .new_slider #slide2:checked ~ .slider-wrapper .inner {
+    margin-left: -100%; }
+  .new_slider #slide3:checked ~ .slider-wrapper .inner {
+    margin-left: -200%; }
+  .new_slider #slide4:checked ~ .slider-wrapper .inner {
+    margin-left: -300%; }
+  .new_slider #slide5:checked ~ .slider-wrapper .inner {
+    margin-left: -400%; }
+  .new_slider #slide6:checked ~ .slider-wrapper .inner {
+    margin-left: -500%; }
+  .new_slider #slide7:checked ~ .slider-wrapper .inner {
+    margin-left: -600%; }
+  .new_slider #slide8:checked ~ .slider-wrapper .inner {
+    margin-left: -700%; }
+  .new_slider #slide9:checked ~ .slider-wrapper .inner {
+    margin-left: -800%; }
+  .new_slider #slide10:checked ~ .slider-wrapper .inner {
+    margin-left: -900%; }
+  .new_slider #slide11:checked ~ .slider-wrapper .inner {
+    margin-left: -1000%; }
+  .new_slider #slide12:checked ~ .slider-wrapper .inner {
+    margin-left: -1100%; }
+  .new_slider #slide13:checked ~ .slider-wrapper .inner {
+    margin-left: -1200%; }
+  .new_slider #slide14:checked ~ .slider-wrapper .inner {
+    margin-left: -1300%; }
+  .new_slider #slide15:checked ~ .slider-wrapper .inner {
+    margin-left: -1400%; }
+  @media only screen and (max-width: 850px) and (min-width: 450px) {
+    .new_slider .slider-wrapper {
+      border-radius: 0; } }
+  @media only screen and (max-width: 450px) {
+    .new_slider .slider-wrapper {
+      border-radius: 0; }
+    .new_slider .slider-wrapper .info {
+      opacity: 0; } }
+  @media only screen and (min-width: 850px) {
+    .new_slider body {
+      padding: 0 80px; } }
